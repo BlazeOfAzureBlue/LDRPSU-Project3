@@ -1,0 +1,385 @@
+Using pre-set license
+Built from '6000.0/respin/6000.0.51f1-a206c6c19c75' branch; Version is '6000.0.51f1 (01c3ff5872c5) revision 115711'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'en' Physical Memory: 31937 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+Date: 2025-10-30T13:34:03Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.51f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/Brayd/Documents/OpenWorld/OpenWorldAttempt
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+49974
+-job-worker-count
+5
+-background-job-worker-count
+8
+-gc-helper-count
+1
+Successfully changed project path to: C:/Users/Brayd/Documents/OpenWorld/OpenWorldAttempt
+C:/Users/Brayd/Documents/OpenWorld/OpenWorldAttempt
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [606692]  Target information:
+
+Player connection [606692]  * "[IP] 192.168.1.26 [Port] 0 [Flags] 2 [Guid] 3196060232 [EditorId] 3196060232 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-OP4EDUN) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [606692] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [606692] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 1.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.51f1 (01c3ff5872c5)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.51f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Brayd/Documents/OpenWorld/OpenWorldAttempt/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4060 Ti (ID=0x2803)
+    Vendor:   NVIDIA
+    VRAM:     7949 MB
+    Driver:   32.0.15.8088
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.51f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.51f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.51f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56604
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.51f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003767 seconds.
+- Loaded All Assemblies, in  0.323 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.264 seconds
+Domain Reload Profiling: 585ms
+	BeginReloadAssembly (138ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (112ms)
+		LoadAssemblies (135ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (109ms)
+			TypeCache.Refresh (108ms)
+				TypeCache.ScanAssembly (98ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (264ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (229ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (50ms)
+			ProcessInitializeOnLoadAttributes (121ms)
+			ProcessInitializeOnLoadMethodAttributes (38ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.664 seconds
+Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.686 seconds
+Domain Reload Profiling: 1344ms
+	BeginReloadAssembly (151ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (437ms)
+		LoadAssemblies (321ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (194ms)
+			TypeCache.Refresh (141ms)
+				TypeCache.ScanAssembly (130ms)
+			BuildScriptInfoCaches (41ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (686ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (528ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (138ms)
+			ProcessInitializeOnLoadAttributes (336ms)
+			ProcessInitializeOnLoadMethodAttributes (42ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 233 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6091 unused Assets / (4.4 MB). Loaded Objects now: 6822.
+Memory consumption went from 183.0 MB to 178.6 MB.
+Total: 8.413400 ms (FindLiveObjects: 0.640000 ms CreateObjectMapping: 0.232400 ms MarkObjects: 4.347800 ms  DeleteObjects: 3.192000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 920334.652030 seconds.
+  path: Assets/random assets/Normal Maps/stone_hell_2_normal.png
+  artifactKey: Guid(395911bbf4c38b54fa9d8fe69872d521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/random assets/Normal Maps/stone_hell_2_normal.png using Guid(395911bbf4c38b54fa9d8fe69872d521) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3f91990867b4431fe800c2c468af1a52') in 0.052686 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/random assets/Color Maps/stone_hell_2.png
+  artifactKey: Guid(570c42e5c304ae84aa99e174856d1532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/random assets/Color Maps/stone_hell_2.png using Guid(570c42e5c304ae84aa99e174856d1532) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c68b7dab7ef5d261525214d9ec71cc13') in 0.0138489 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/random assets/OBJ 2/stone_5.obj
+  artifactKey: Guid(195417534e5d35245b89eeb54f63e14d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/random assets/OBJ 2/stone_5.obj using Guid(195417534e5d35245b89eeb54f63e14d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'af0ededa7ca8697de474ec0b4b571eeb') in 0.4270326 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/random assets/Color Maps/stone_2.png
+  artifactKey: Guid(84d79449d5ba58a46a0e61ebdefe77a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/random assets/Color Maps/stone_2.png using Guid(84d79449d5ba58a46a0e61ebdefe77a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b17f7f23f3392fcb1cd62291ea49a891') in 0.0127617 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/random assets/Normal Maps/stone_alien_2_normal.png
+  artifactKey: Guid(752db3b5ca179e648b76f018db0521bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/random assets/Normal Maps/stone_alien_2_normal.png using Guid(752db3b5ca179e648b76f018db0521bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5785f04e29f97c03f7ccbf3ba5932af8') in 0.0138005 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/random assets/Color Maps/stone_hell_5.png
+  artifactKey: Guid(05e7cd565fa0e164fa023cb0cb821f99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/random assets/Color Maps/stone_hell_5.png using Guid(05e7cd565fa0e164fa023cb0cb821f99) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1e87c83f876efad5d7f0ba40cc8994ca') in 0.0128451 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/random assets/OBJ 2/stone_3.obj
+  artifactKey: Guid(e770bd84e0ac3d94c97f6baab5df6954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/random assets/OBJ 2/stone_3.obj using Guid(e770bd84e0ac3d94c97f6baab5df6954) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '90132d817dce883a89fc8b9dfa3eeb72') in 0.0282253 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/random assets/Color Maps/stone_hell_3.png
+  artifactKey: Guid(5bafc2261b21cd54d904dd0e61986482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/random assets/Color Maps/stone_hell_3.png using Guid(5bafc2261b21cd54d904dd0e61986482) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f4f678a4d8aa5193c5573a2b39cf0bcc') in 0.0129232 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/random assets/Color Maps/stone_alien_2.png
+  artifactKey: Guid(9f2ae6338f4b8b844b303c6bbf57825c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/random assets/Color Maps/stone_alien_2.png using Guid(9f2ae6338f4b8b844b303c6bbf57825c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '14b08f7e19a4bd2e96b331327c35f63b') in 0.0127725 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/random assets/Color Maps/stone_1.png
+  artifactKey: Guid(99b49c241bcc0f84ea647d221deb08f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/random assets/Color Maps/stone_1.png using Guid(99b49c241bcc0f84ea647d221deb08f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '554253fcd03297b9fec79b7ba1a58e2e') in 0.0125245 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.774417 seconds.
+  path: Assets/random assets/OBJ 2/pine_tree_n_2_1.obj
+  artifactKey: Guid(ad49c4f09c4515444a9a6bd01aeee8b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/random assets/OBJ 2/pine_tree_n_2_1.obj using Guid(ad49c4f09c4515444a9a6bd01aeee8b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4c3c524ff7f2b2714e289d7c2c383b09') in 0.041234 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/random assets/OBJ 2/tree_5.obj
+  artifactKey: Guid(a0b4389d316a3b143a937e315c6bee1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/random assets/OBJ 2/tree_5.obj using Guid(a0b4389d316a3b143a937e315c6bee1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '90142f7d53e498897473a82185ff6921') in 0.0418954 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/random assets/OBJ 2/pine_tree_n_3_2.obj
+  artifactKey: Guid(04e86825cb177344ba03c46fac73dd03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/random assets/OBJ 2/pine_tree_n_3_2.obj using Guid(04e86825cb177344ba03c46fac73dd03) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1251336aecc48152540bacfb90c353b3') in 0.0384176 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/random assets/OBJ 2/tree_9.obj
+  artifactKey: Guid(97dd3fd1b38f5f24d98e920f204f01d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/random assets/OBJ 2/tree_9.obj using Guid(97dd3fd1b38f5f24d98e920f204f01d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c49f0d95cb9e85ebb816d35b65c3351d') in 0.0249716 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/random assets/OBJ 2/wheat_1.obj
+  artifactKey: Guid(02420a9c10fbff74bbb138b5132f566d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/random assets/OBJ 2/wheat_1.obj using Guid(02420a9c10fbff74bbb138b5132f566d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'db739af4c658760854a23804be9835ee') in 0.0298927 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/random assets/OBJ 2/tree_8.obj
+  artifactKey: Guid(97bfda09b65e66a4092e856f0160be61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/random assets/OBJ 2/tree_8.obj using Guid(97bfda09b65e66a4092e856f0160be61) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cb55b82684cb1271fb5677222c20bf8d') in 0.0274719 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/random assets/OBJ 2/pine_tree_n_2_4.obj
+  artifactKey: Guid(dd9b75a72102a2447b42219849769348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/random assets/OBJ 2/pine_tree_n_2_4.obj using Guid(dd9b75a72102a2447b42219849769348) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '06c264fdbf54acd910ef0efc21ce91d1') in 0.0297394 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.201267 seconds.
+  path: Assets/random assets/OBJ 2/mushroom_n_4.obj
+  artifactKey: Guid(04995a408a3859840ae75a54d7026ba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/random assets/OBJ 2/mushroom_n_4.obj using Guid(04995a408a3859840ae75a54d7026ba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1faef9d664f56a56c710b9e1ff653794') in 0.0323127 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/random assets/OBJ 2/pine_tree_n_1_4.obj
+  artifactKey: Guid(f786113cc13eff54fb56049c9c3ad441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/random assets/OBJ 2/pine_tree_n_1_4.obj using Guid(f786113cc13eff54fb56049c9c3ad441) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '98ea797b55ae1db0be235a2be713b3ff') in 0.0287433 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/random assets/OBJ 2/mushroom_n_3_1.obj
+  artifactKey: Guid(8ea6b68b4460b06419564b069087c832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/random assets/OBJ 2/mushroom_n_3_1.obj using Guid(8ea6b68b4460b06419564b069087c832) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '23b1bf8a58790eb87095d85c4f65cf9b') in 0.0243779 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/random assets/OBJ 2/mushroom_n_3.obj
+  artifactKey: Guid(c3f6969e87b0d6044ac3febd0ac0fad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/random assets/OBJ 2/mushroom_n_3.obj using Guid(c3f6969e87b0d6044ac3febd0ac0fad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6681635bb1bffb1c1529ca428f4ea8f8') in 0.023443 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/random assets/OBJ 2/mushroom_n_2_0.obj
+  artifactKey: Guid(39b65a376609ec8449daeeff8a33af34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/random assets/OBJ 2/mushroom_n_2_0.obj using Guid(39b65a376609ec8449daeeff8a33af34) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '04a77ecc2326ab2b4d24718fe9ba5f4c') in 0.0249459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/random assets/OBJ 2/grass_3.obj
+  artifactKey: Guid(01461f2f162410743b38f07ba0b9ec3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/random assets/OBJ 2/grass_3.obj using Guid(01461f2f162410743b38f07ba0b9ec3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a27e2e540233a521cf015fad6c135c6b') in 0.0318081 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/random assets/OBJ 2/fern_2.obj
+  artifactKey: Guid(6cd1d05bc16735d4b839a8688a2551e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/random assets/OBJ 2/fern_2.obj using Guid(6cd1d05bc16735d4b839a8688a2551e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9abb07c2d036f76269da1d312179cb9c') in 0.0340338 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.843160 seconds.
+  path: Assets/random assets/OBJ/church pew.fbx
+  artifactKey: Guid(95de0ed2269fe164fbc8c1a9e278f626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/random assets/OBJ/church pew.fbx using Guid(95de0ed2269fe164fbc8c1a9e278f626) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9def48566517b5514902f3fad613c4f7') in 0.034748 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
